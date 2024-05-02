@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Smoothinn</title>
+    <link rel="stylesheet" href="style.css" >
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,700;1,600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+ 
+  </head>
+  <body>
+    <div class="header" >
+      <div class="container">
+        <nav class="navbar fixed-top bg-dark border-bottom border-body" data-bs-theme="dark">
+          <div class="logo">
+            <img src="logu (1).png" style="max-width: 200px; max-height: 100px;" />
+          </div>
+          <nav>
+            <ul class="MenuItems" style="font-family: Libre Baskerville, serif;">
+              <li><a href="index.html#product"class="link"style="padding-right: 20px;">Products</a></li>
+              <li><a href="about.html"class="link"style="padding-right: 20px;">About</a></li>
+              <li><a href="contact.html"class="link"style="padding-right: 20px;">Contact</a></li>
+              <li><a href="index.html#foot"class="link"style="padding-right: 20px;">Download App</a></li>
+            </ul>
+          </nav>
+          
+          
+          <img  src="images/menu.png" class="menu-icon" 
+          onclick="menutoggle()" alt="" >
+          </nav>
+        </div>
+
+        
+    </div>
+        <div class="header">
+            <!-- Your header content, which may include the logo, navigation, etc. -->
+        </div>
+    
+        <div class="container">
+            
+            <h2><b>About Smoothinn</b></h2>
+            <div class="para" style="margin-top: 20px;margin-bottom: 20px;">
+            <p style="text-align: justify;">
+              Smoothinn is not just a smoothie shop; it's a lifestyle brand dedicated to helping you achieve your health and wellness goals. Our smoothies are carefully crafted to not only taste amazing but also provide your body with the nutrients it needs to thrive. From energizing morning blends to satisfying post-workout options, each smoothie is designed with your well-being in mind.
+
+              We take pride in our commitment to using fresh, natural ingredients. You won't find any artificial flavors, colors, or additives in our products. Every fruit, vegetable, and superfood in our smoothies is chosen for its nutritional benefits, ensuring that every sip contributes to your overall health.
+              
+              In addition to our signature smoothies, Smoothinn offers a range of healthy add-ons and boosters to customize your drink. Whether you want to add extra protein, boost your immune system, or enhance your energy levels, our knowledgeable staff can help you create the perfect blend for your needs.
+              
+              At Smoothinn, we believe that healthy eating should be convenient and enjoyable. That's why we offer online ordering and delivery options, making it easy for you to enjoy a nutritious smoothie wherever you are. Whether you're at home, at work, or on the go, Smoothinn is your partner in wellness.
+              
+              Join the Smoothinn community today and experience the deliciousness of healthy living!
+            </p>
+            </div>
+            <h2><b>What Sets Us Apart:</b></h2>
+            <div class="para2" style="margin-top: 30px;margin-bottom: 20px;">
+             
+               <p  style="text-align: justify;"> 
+                Smoothinn stands out by offering a unique blend of premium, locally-sourced ingredients in customizable smoothies tailored to individual tastes and nutritional needs. Our health-focused approach prioritizes quality, innovation, and customer satisfaction, providing convenience through online ordering, delivery, and eco-friendly practices, all while fostering community engagement and promoting a positive impact on both individuals and the environment.
+                </p>
+            </div>
+            <h2><b>Our Values</b></h2>
+            <div class="para" style="margin-top: 20px;margin-bottom: 20px;">
+            <p style="text-align: justify;">
+              <b>Quality:</b> Using premium ingredients and ensuring high standards in every smoothie we craft.</p>
+<p style="text-align: justify; margin-top: 10px;"><b>Health:</b> Prioritizing nutrition and offering options that support various dietary preferences and goals.</p>
+<p style="text-align: justify; margin-top: 10px;"><b>Innovation:</b> Continuously exploring new flavors, ingredients, and techniques to enhance the smoothie experience.</p>
+<p style="text-align: justify; margin-top: 10px;"><b>Customer Satisfaction:</b> Providing exceptional service, customization options, and convenience to meet our customers' needs.</p>
+<p style="text-align: justify; margin-top: 10px;"><b>Community Engagement:</b> Building connections with our customers, local suppliers, and partners to create a positive impact.</p>
+<p style="text-align: justify; margin-top: 10px;"><b>Sustainability:</b> Implementing eco-friendly practices, reducing waste, and supporting initiatives that benefit the environment.</p>
+<p style="text-align: justify; margin-top: 10px;"><b>Transparency:</b> Communicating openly about our ingredients, sourcing practices, and business operations to build trust and transparency with our customers.</p>
+            </div>
+            
+        </div>
+    
+
+<!--Js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById(MenuItems);
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+        var MenuItems = document.querySelector('.MenuItems'); // Select the menu items
+
+        if (MenuItems.style.maxHeight === '' || MenuItems.style.maxHeight === '0px') {
+            MenuItems.style.maxHeight = '200px';
+        } else {
+            MenuItems.style.maxHeight = '0px';
+        }
+    }
+
+    </script>
+  </body>
+</html>
